@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!--<Button
+        android:id="@+id/matrixBtn"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="228dp"
+        android:layout_height="61dp"
+        android:background="#FFFFFF"
+        android:shadowColor="#000000"
+        android:text="@string/_3_matrix_operations"
+        android:textColor="#000000"
+        android:onClick="gotoMatrixPage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setBtn"
+        app:layout_constraintVertical_bias="0.09" />
+    -->
+
+    <Button
+        android:id="@+id/lcmBtn"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:background="#FFFFFF"
+        android:onClick="gotoLcmPage"
+        android:shadowColor="#000000"
+        android:text="@string/_5_lcm_and_hcf"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/figWordsBtn"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <Button
+        android:id="@+id/figWordsBtn"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="172dp"
+        android:background="#FFFFFF"
+        android:onClick="gotoFigWordsPage"
+        android:shadowColor="#000000"
+        android:text="@string/_4_figure_into_words"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setBtn"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <Button
+        android:id="@+id/setBtn"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:background="#FFFFFF"
+        android:onClick="gotoSetPage"
+        android:shadowColor="#000000"
+        android:text="@string/_2_set_theory_operations"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateBtn"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <Button
+        android:id="@+id/dateBtn"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:background="#FFFFFF"
+        android:onClick="gotoDatePage"
+        android:shadowColor="#000000"
+        android:text="@string/_1_date_difference"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+</android.support.constraint.ConstraintLayout>

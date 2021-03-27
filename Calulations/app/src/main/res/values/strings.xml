@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calculations</string>
+    <string name="_5_lcm_and_hcf">Mathematical Operations</string>
+    <string name="_3_matrix_operations">Matrix Operations</string>
+    <string name="_4_figure_into_words">Figure into words</string>
+    <string name="enter_your_choice">Enter your Choice</string>
+    <string name="_1_date_difference">Date Difference</string>
+    <string name="_2_set_theory_operations">Set Theory </string>
+    <string name="set_b">Set B</string>
+    <string name="set_operations">Set Operations</string>
+    <string name="enter_value">Enter value</string>
+    <string name="set_a">Set A</string>
+    <string name="add_to_set_a">Add to Set A</string>
+    <string name="add_to_set_b">Add to Set B</string>
+    <string name="calculate_union">Calculate Union</string>
+    <string name="calculate_intersection">Calculate Intersection</string>
+    <string name="calculate_difference">Calculate Difference</string>
+    <string name="date_1">Date 1</string>
+    <string name="date_2">Date 2</string>
+    <string name="hcflcmresult">Result</string>
+</resources>

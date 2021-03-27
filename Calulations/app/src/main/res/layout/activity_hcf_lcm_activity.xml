@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hcf_lcm_activity">
+
+    <Button
+        android:id="@+id/calcSDBtn"
+        android:layout_width="165dp"
+        android:layout_height="66dp"
+        android:background="#FFFFFF"
+        android:onClick="calulateSD"
+        android:shadowColor="#000000"
+        android:text="Standard Deviation"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/calcVarBtn"
+        app:layout_constraintTop_toBottomOf="@+id/calcLcmBtn"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <Button
+        android:id="@+id/calcVarBtn"
+        android:layout_width="165dp"
+        android:layout_height="66dp"
+        android:background="#FFFFFF"
+        android:onClick="calculateVariance"
+        android:shadowColor="#000000"
+        android:text="Variance"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calcHcfBtn"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <Button
+        android:id="@+id/calcLcmBtn"
+        android:layout_width="165dp"
+        android:layout_height="66dp"
+        android:background="#FFFFFF"
+        android:onClick="calculateLCM"
+        android:shadowColor="#000000"
+        android:text="LCM"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/calcHcfBtn"
+        app:layout_constraintTop_toBottomOf="@+id/hcfPageResultLbl"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <Button
+        android:id="@+id/calcHcfBtn"
+        android:layout_width="165dp"
+        android:layout_height="66dp"
+        android:background="#FFFFFF"
+        android:onClick="calculateHCF"
+        android:shadowColor="#000000"
+        android:text="HCF"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hcfPageResultLbl"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <TextView
+        android:id="@+id/hcfPageResultLbl"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:background="#ECF6FB"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberEntryText"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <EditText
+        android:id="@+id/numberEntryText"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:background="#FBF4E1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Format : n1 n2 n3 n4..."
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:textColorHint="#515151"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+</android.support.constraint.ConstraintLayout>

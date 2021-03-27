@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/matrixBtn"
+        android:layout_width="330dp"
+        android:layout_height="85dp"
+        android:backgroundTint="@color/white"
+        android:shadowColor="@color/black"
+        android:text="Matrix"
+        android:textColor="@color/black"
+        android:onClick="gotoMatrixPage"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberSysBtn"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <Button
+        android:id="@+id/logBtn"
+        android:layout_width="330dp"
+        android:layout_height="85dp"
+        android:backgroundTint="@color/white"
+        android:shadowColor="@color/black"
+        android:text="Logarithm"
+        android:textColor="@color/black"
+        android:onClick="gotoLogarithmPage"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/electricalBtn"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <Button
+        android:id="@+id/numberSysBtn"
+        android:layout_width="330dp"
+        android:layout_height="85dp"
+        android:backgroundTint="@color/white"
+        android:shadowColor="@color/black"
+        android:text="Number System"
+        android:textSize="20dp"
+        android:onClick="gotoNumberSysPage"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trigBtn"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <Button
+        android:id="@+id/trigBtn"
+        android:layout_width="330dp"
+        android:layout_height="85dp"
+        android:backgroundTint="@color/white"
+        android:shadowColor="@color/black"
+        android:text="Trigonometry"
+        android:textSize="20dp"
+        android:onClick="gotoTrigonometryPage"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logBtn"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <Button
+        android:id="@+id/electricalBtn"
+        android:layout_width="330dp"
+        android:layout_height="85dp"
+        android:backgroundTint="@color/white"
+        android:shadowColor="@color/black"
+        android:text="Electrical"
+        android:textSize="20dp"
+        android:onClick="gotoElectricalPage"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+</androidx.constraintlayout.widget.ConstraintLayout>
